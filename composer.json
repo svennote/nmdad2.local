@@ -1,0 +1,6 @@
+{
+    "require": {
+        "gdmgent/artestead": "^5.2",
+        "nesbot/carbon": "^1.22"
+    }
+}
