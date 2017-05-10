@@ -9,88 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                color: #000;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                position:absolute;
-                color:#fff;
-                top:0;
-                left:0;
-                right:0;
-                text-align: center;
-                padding:20px;
-                background-color: #D6522C;
-            }
-
-            .content .logo {
-
-                padding-top:60px;
-
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #D6522C;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-
-            h3.titel {
-
-                text-align:center;
-
-            }
-
-            .profielicon {
-
-                position:absolute;
-                top:0;
-                right:0;
-                width:30px;
-                padding:5px;
-
-            }
-        </style>
+        <link href="./css/styles.css" rel="stylesheet" type="text/css">
+       
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -117,8 +37,9 @@
             </div>
             <form>
             <h3 class="titel">Login</h3>
-            Naam
+            <label>Naam</label>
             <input type="text">
+            
             </form>
             
               
