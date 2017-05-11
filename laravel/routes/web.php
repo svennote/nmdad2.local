@@ -12,11 +12,27 @@
 */
 
 Route::get('/', function () {
-    return view('registreer');
+    return view('home');
 });
 
 
 Route::get('/profiel', function () {
     return view('profiel');
+});
+
+Route::get('/verkiezing', function () {
+    return view('verkiezing');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/registreer', function () {
+    return view('registreer');
 });
 

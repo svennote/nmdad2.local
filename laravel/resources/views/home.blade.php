@@ -9,9 +9,11 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-         <link href="./css/styles.css" rel="stylesheet" type="text/css">
+        <link href="./css/styles.css" rel="stylesheet" type="text/css">
         <link href="./css/hamburger.css" rel="stylesheet" type="text/css">
-
+        
+        
+       
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -29,9 +31,11 @@
             <div class="content">
                 <div class="title m-b-md">
 
-                    <img src="./images/profielfoto.png" class="profiellogo" alt="profile Pic">
-                    <h4 class="profiel">Sven Noteboom</h4>
+                     <a href="{{ url('/profiel') }}"><img src="./images/profiel.png" class="profielicon" alt="profile Pic"></a>
+                    <img src="./images/logo.png" class="logo" alt="profile Pic">
+
                 </div>
+
 <div class="inhoud">
 <div id="nav-icon3">
   <span></span>
@@ -41,13 +45,18 @@
 <nav class="navigation">
 <a href="{{ url('/') }}">Home</a>
 <a href="{{ url('/profiel') }}">Profiel</a>
-<a href="{{ url('/verkiezing') }}">Verkiezing</a>
-<a href="{{ url('/about') }}">About</a>
-<a href="{{ url('/contact') }}">Contact</a>
+<a href="{{ url('/') }}">Verkiezing</a>
+<a href="{{ url('/') }}">About</a>
+<a href="{{ url('/') }}">Contact</a>
 </nav>
-</div>
-            </div>
 
+ <h3 class="titel">Login</h3> 
+     
+<a href="{{ url('/') }}" class="registreerlink"<p>Nog geen account? registreer hier</p></a>         
+            </div>
+              
+
+        </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./js/main.js"></script>
