@@ -36,3 +36,7 @@ Route::get('/registreer', function () {
     return view('registreer');
 });
 
+Route::get('/oldtimer', function () {
+    return view('oldtimer');
+});
+

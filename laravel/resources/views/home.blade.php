@@ -52,7 +52,7 @@
 
  <h3 class="titel">Login</h3> 
      
-<a href="{{ url('/') }}" class="registreerlink"<p>Nog geen account? registreer hier</p></a>         
+<a href="{{ url('/registreer') }}" class="registreerlink"<p>Nog geen account? registreer hier</p></a>         
             </div>
               
 

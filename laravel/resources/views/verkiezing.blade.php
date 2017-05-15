@@ -50,9 +50,9 @@
 <a href="{{ url('/contact') }}">Contact</a>
 </nav>
 
- <h3 class="titel">Login</h3> 
+ <h3 class="titel">Verkiezing</h3> 
      
-<a href="{{ url('/') }}" class="registreerlink"<p>Nog geen account? registreer hier</p></a>         
+       
             </div>
               
 

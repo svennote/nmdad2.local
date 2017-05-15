@@ -50,9 +50,10 @@
 <a href="{{ url('/contact') }}">Contact</a>
 </nav>
 
- <h3 class="titel">Login</h3> 
+ <h3 class="titel">About</h3>
+ <p>Dit is een webapplicatie waar je kunt stemmen op oldtimers, of je eigen oldtimer toevoegen voor de verkiezing.</p>
      
-<a href="{{ url('/') }}" class="registreerlink"<p>Nog geen account? registreer hier</p></a>         
+   
             </div>
               
 
