@@ -137,3 +137,10 @@ html, body {
                 padding-top:20px;
 
             }
+
+            .inhoud > p {
+
+                color:black;
+                font-weight: 600;
+
+            }
