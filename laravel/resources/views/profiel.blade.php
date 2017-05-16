@@ -30,7 +30,7 @@
                 <div class="title m-b-md">
 
                     <img src="./images/profielfoto.png" class="profiellogo" alt="profile Pic">
-                    <h4 class="profiel">Sven Noteboom</h4>
+                    <h4 class="profiel">Username</h4>
                 </div>
 <div class="inhoud">
 <div id="nav-icon3">
