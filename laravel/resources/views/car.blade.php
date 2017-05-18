@@ -15,7 +15,7 @@
         
        
     </head>
-    <body>
+    <body>                   
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -50,11 +50,10 @@
 <a href="{{ url('/contact') }}">Contact</a>
 </nav>
 
- <h3 class="titel">Verkiezing</h3> 
+ <h3 class="titel">Register Car</h3>
+ <p>ok</p>
      
-     <h4> Oldtimer inschrijven </h4>
-     <a href="{{ url('/car') }}">Oldtimer</a>
-       
+   
             </div>
               
 

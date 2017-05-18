@@ -51,7 +51,20 @@
 </nav>
 
  <h3 class="titel">Login</h3> 
-     
+    
+<form action="/action_page.php">
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+  </div>
+</form>
+
 <a href="{{ url('/registreer') }}" class="registreerlink"<p>Nog geen account? registreer hier</p></a>         
             </div>
               
