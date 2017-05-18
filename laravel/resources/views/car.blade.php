@@ -50,8 +50,29 @@
 <a href="{{ url('/contact') }}">Contact</a>
 </nav>
 
- <h3 class="titel">Register Car</h3>
- <p>ok</p>
+ <h3 class="titel">Registreer oldtimer</h3>
+ 
+ <form action="/action_page.php">
+
+  <div class="container">
+
+    <input type="file" name="fileToUpload" id="fileToUpload">
+
+    <label><b>Merk</b></label>
+    <input type="text" placeholder="Merk oldtimer" name="merk" required>
+
+    <label><b>Type</b></label>
+    <input type="text" placeholder="Type oldtimer" name="type" required>
+
+    <label><b>Leeftijd</b></label>
+    <input type="text" placeholder="Leeftijd oldtimer" name="leeftijd" required>
+
+    <label><b>Type</b></label>
+    <input type="text" placeholder="Type oldtimer" name="type" required>
+
+    <button type="submit">Registreer</button>
+  </div>
+</form>
      
    
             </div>

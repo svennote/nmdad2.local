@@ -84,6 +84,12 @@ html, body {
 
             }
 
+            input[type="text"] {
+
+                clear:right;
+
+            }
+
 
 
             .m-b-md {

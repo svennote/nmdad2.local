@@ -52,6 +52,27 @@
 
  <h3 class="titel">Registreer</h3> 
      
+ <form action="/action_page.php">
+
+  <div class="container">
+
+    <input type="file" name="fileToUpload" id="fileToUpload">
+
+    <label><b>Voornaam</b></label>
+    <input type="text" placeholder="voornaam" name="vnaam" required>
+
+    <label><b>Familienaam</b></label>
+    <input type="text" placeholder="familienaam" name="fnaam" required>
+
+    <label><b>Leeftijd</b></label>
+    <input type="text" placeholder="Leeftijd" name="leeftijd" required>
+
+    <label><b>Email</b></label>
+    <input type="email" placeholder="email" name="email" required>
+
+    <button type="submit">Registreer</button>
+  </div>
+</form>
        
             </div>
               
